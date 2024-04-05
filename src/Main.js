@@ -3,6 +3,7 @@ import Modal from "./components/Modal";
 import Formations from "./components/Formations";
 import Presentation from "./components/Presentation";
 import Experiences from "./components/Experiences";
+import Contact from "./components/Contact";
 
 export default function Main() {
   return (
@@ -11,6 +12,7 @@ export default function Main() {
       <Presentation />
       <Formations />
       <Experiences />
+      <Contact />
     </div>
   );
 }

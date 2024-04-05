@@ -6,7 +6,7 @@ export default function Modal() {
             
             <div className="presentation">
                 <span>
-                <h1><span className="transparentText">Bonjour, je suis </span><br/>Djibril</h1>
+                <h1 className="boldTitle"><span className="transparentText">Bonjour, je suis </span><br/>Djibril</h1>
                 <h3>Développeur Fullstack React et Node JS fort d'une expertise technique solide
                     </h3>
                 </span>

@@ -35,9 +35,14 @@
 }
 
 /* STYLE GLOBAL */
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .carousel {
   display: flex;
-  align-items: center;  
+  align-items: center;
   padding: 0px 50px;
 }
 
@@ -173,7 +178,7 @@
   color: black;
 }
 
-.contact {
+.contactButton {
   padding: 1rem;
   background-color: #18fad9;
 }
@@ -192,7 +197,7 @@
   margin-right: 45rem;
 }
 
-.presentation > span > h1 {
+.boldTitle {
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: 700;
@@ -233,13 +238,22 @@
 
 .formationsDisplay {
   height: 40%;
+  margin: 2em 5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.animateFromLeft {
+  flex-direction: row;
   animation: animateFromLeft 1s linear;
 }
 
-.cv{
+.animateFromRight {
+  flex-direction: row-reverse;
+}
+
+.cv {
   margin-top: 5em;
 }
 
@@ -254,14 +268,14 @@
 
 .workicon {
   position: absolute;
-  left: calc(70% + 2px); 
+  left: calc(70% + 2px);
   transform: translate(-50%, -50%);
   padding: 20px;
   border-radius: 50%;
   background-color: #18fad9;
 }
 
-.experience{
+.experience {
   margin: 5em;
   width: 60%;
 }
@@ -273,16 +287,16 @@
   text-transform: uppercase;
 }
 
-.competences{
+.competences {
   margin-top: 5em;
 }
 
-.ballsContainer{
+.ballsContainer {
   display: flex;
   flex-wrap: wrap;
 }
 
-.ball{
+.ball {
   display: flex;
   justify-content: center;
   width: 100px;
@@ -294,7 +308,51 @@
   background-color: #18fad9;
   border-radius: 50%;
   text-align: center;
-} 
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  padding-left: 10em;
+  align-items: center;
+  text-align: left;
+  background-image: -webkit-linear-gradient(140deg, #fff 40%, #18fad9 35%);
+}
+
+.contactButtonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cvButton,
+.contactButtonContainer > button {
+  border: 2px solid #18fad9;
+  border-radius: 5px;
+  padding: 9px 15px;
+  background-color: #fff;
+  font-weight: bold;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition-duration: 0.2s;
+  margin: 0px 2px;
+}
+
+.cvButton:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+  transform: scale(1.02);
+  border-radius: 5px;
+  color: #fff;
+  background-color: #18fad9;
+}
+
+.contactButtonContainer > button > span {
+  margin-left: 10px;
+}
 
 @keyframes scroll {
   0% {
@@ -336,5 +394,109 @@
   100% {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header {
+    align-items: center;
+  }
+
+  .contactButton {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content {
+    padding-top: 2em;
+  }
+
+  .presentation {
+    margin: 0px;
+    background-color: red;
+    background-image: transparent;
+  }
+
+  .presentation > span {
+    padding: 0rem 5rem;
+    margin-right: 25rem;
+  }
+
+  .component,
+  .modal {
+    margin: 0px;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 2em 0em;
+  }
+
+  .midSizeText {
+    max-width: 100%;
+  }
+
+  .formationsDisplay {
+    margin: 2em 0em;
+  }
+
+  .bigSizeText {
+    max-width: 100%;
+    margin-right: 0px;
+  }
+
+  .etablissementImage {
+    width: 250px;
+  }
+
+  .ballsContainer {
+    justify-content: center;
+  }
+
+  .formationsDisplay {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ball {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ball > img {
+    width: 50px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .workicon {
+    position: inherit;
+    left: 0;
+    transform: none;
+  }
+
+  .contact {
+    padding: 0em 5em;
+  }
+
+  .contactButtonContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cvButton,
+  .contactButtonContainer > button {
+    margin: 5px 0px;
   }
 }
