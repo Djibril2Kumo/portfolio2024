@@ -4,7 +4,7 @@
         "title": "Bac Pro Systèmes Numériques",
         "etablissement": "Lycée professionel Galilée",
         "annee": "2020",
-        "description": "Le Bac Pro en Systèmes Numériques a éveillé ma passion pour la programmation, en m'initiant aux langages comme Python et Javascript. Ces compétences m'ont ouvert des portes dans la conception web.",
+        "description": "Mon Bac Pro en Systèmes Numériques a été le point de départ de ma passion pour la programmation. J'y ai découvert des langages comme Python et JavaScript, qui ont été la base de mes compétences techniques. Ces connaissances m'ont rapidement ouvert les portes du développement web et m'ont permis de concrétiser mes premiers projets.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Lyc%C3%A9e_professionnel_Galil%C3%A9e_Paris.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Bac +2 Développement web ",
         "etablissement": "Konexio",
         "annee": "2022",
-        "description": "Le titre RNCP DWWM m'a permis de rentrer dans le vif du sujet. Cette formation m'a familiarisé avec le développement pour le web et les appareils mobiles, me permettant d'explorer des langages tels que HTML, CSS, JavaScript, et des frameworks comme React.",
+        "description": "Le titre RNCP Développeur Web et Web Mobile (DWWM) m'a plongé au cœur du développement web et mobile. Cette formation m'a permis de maîtriser les bases du développement en explorant des langages comme HTML, CSS, et JavaScript, tout en me familiarisant avec des frameworks modernes tels que React. Grâce à cette expérience, j'ai pu acquérir une solide compréhension des outils et technologies essentiels pour créer des interfaces dynamiques et responsive, adaptées aux besoins du web actuel.",
         "image": "https://upload.wikimedia.org/wikipedia/fr/5/54/Logo_Konexio.png"
     },
     {
@@ -20,7 +20,7 @@
         "title": "Bac +4 Chefs de projets digitaux",
         "etablissement": "École Européenne des Métiers de l’Internet",
         "annee": "2024",
-        "description": "Le Bachelor en Développement Web a consolidé les compétences que j'ai acquises précédemment et m'a permis d'apprendre d'autre méthode de développement garantissant un code de qualité et plus performant.",
+        "description": "Le Bachelor en Développement Web a renforcé les compétences que j'avais acquises précédemment, tout en m'initiant à de nouvelles méthodes de développement. Ces approches m'ont permis de produire un code plus propre, de meilleure qualité et plus performant. Grâce à cette formation, j'ai pu approfondir ma compréhension des bonnes pratiques de développement et améliorer ma capacité à concevoir des solutions plus optimisées et évolutives.",
         "image": "https://www.phosphore.com/wp-content/uploads/2023/01/LOGO-EEMI-770x374px_Plan-de-travail-1.png"
     }
 ]

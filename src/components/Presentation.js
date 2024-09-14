@@ -2,7 +2,20 @@ import React from "react";
 import PsychologyIcon from "@mui/icons-material/Psychology";
 import AccessibilityIcon from "@mui/icons-material/Accessibility";
 import EmojiObjectsIcon from "@mui/icons-material/EmojiObjects";
-import { javascript, html, css, reactjs, nodejs, git, docker, redux, python, mongodb, webpack, linux } from "../tech";
+import {
+  javascript,
+  html,
+  css,
+  reactjs,
+  nodejs,
+  git,
+  docker,
+  redux,
+  python,
+  mongodb,
+  webpack,
+  linux,
+} from "../tech";
 import Ball from "./Ball";
 
 export default function Presentation() {
@@ -69,7 +82,7 @@ export default function Presentation() {
     {
       name: "Linux",
       icon: linux,
-    }
+    },
   ];
 
   return (
@@ -77,13 +90,20 @@ export default function Presentation() {
       <div className="content">
         <h2 className="componentTitle">Présentation.</h2>
         <p className="midSizeText greyText">
-          Ma passion pour le développement et ma capacité à résoudre
-          efficacement les défis techniques font de moi un atout pour tout
-          projet de développement web.
+          Passionné par le développement, je m'engage à relever les défis
+          techniques avec efficacité et créativité.
           <br />
-          Développeur Fullstack ayant une plus grande appètence pour le front,
-          je m'efforce de créer des expériences et interfaces utilisateur
-          agréables.
+          <br />
+          En tant que développeur
+          Fullstack, j'ai à cœur de concevoir des solutions qui allient
+          performance et élégance. Chaque projet est pour moi une occasion de
+          repousser mes limites techniques tout en offrant des résultats
+          concrets.
+          <br />
+          Mon approche rigoureuse et ma polyvalence me permettent de
+          m’adapter rapidement aux besoins variés de chaque mission, en
+          apportant des solutions innovantes, optimisées et parfaitement
+          adaptées aux attentes des utilisateurs et des entreprises.
         </p>
 
         <div className="cardContainer">
@@ -96,7 +116,7 @@ export default function Presentation() {
         </div>
 
         <div className="competences">
-          <h2 className="componentTitle">Mes compétences.</h2>
+          <h2 className="componentTitle">Quelques unes de mes compétences.</h2>
           <div className="ballsContainer">
             {technologies.map((technology, index) => (
               <Ball key={index} techno={technology} />

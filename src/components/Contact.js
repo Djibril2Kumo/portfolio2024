@@ -9,11 +9,16 @@ export default function Contact() {
       <div className="contact">
         <span>
           <h1 className="boldTitle">contactez moi</h1>
+          <p style={{width: '50%'}}>Si vous souhaitez en savoir plus sur mon parcours et mes projets,
+             n'hésitez pas à me contacter. <br/> Je serais ravi d'échanger sur mes expériences,
+            mes compétences, et d'explorer comment je peux contribuer à vos futurs projets.
+             Apprenons à mieux nous connaître et voyons comment nous pourrions collaborer
+              ensemble !</p>
           <h3>
             <div className="contactButtonContainer">
               <button>
                 <AlternateEmailIcon />
-                <span>djibrilsamassa@outlook.com</span>
+                <span>dsamassa.pro@myyahoo.com</span>
               </button>
               <button>
                 <LocalPhoneIcon />

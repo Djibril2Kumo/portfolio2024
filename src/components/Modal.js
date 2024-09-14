@@ -7,7 +7,8 @@ export default function Modal() {
             <div className="presentation">
                 <span>
                 <h1 className="boldTitle"><span className="transparentText">Bonjour, je suis </span><br/>Djibril</h1>
-                <h3>Développeur Fullstack React et Node JS fort d'une expertise technique solide
+                <h3>Etudiant en mastère Lead développeur fullstack <br/>
+                 A l'Ecole Européenne des métiers de l'internet.
                     </h3>
                 </span>
             </div>

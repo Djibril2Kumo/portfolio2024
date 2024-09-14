@@ -3,28 +3,21 @@
       "id": 0,
       "title": "Développeur fullstack",
       "etablissement": "Les bons artisans",
-      "annee": "2023 - Actuellement",
-      "description": "Le Bac Pro en Systèmes Numériques a éveillé ma passion pour la programmation, en m'initiant aux langages comme Python et Javascript. Ces compétences m'ont ouvert des portes dans la conception web."
+      "annee": "2023 - 2024",
+      "description": "Développeur Fullstack, j'ai eu l'opportunité de maintenir et d'améliorer un CRM qui gère plus de 2 500 professionnels, en corrigeant les bugs et ajoutant des fonctionnalités. J'ai également intégré Vite JS pour améliorer les performances et la productivité du projet, permettant ainsi un développement plus rapide et fluide. En parallèle, l'intégration de Bit Cloud m'a permis de créer et utiliser une bibliothèque personnelle de composants réutilisables, optimisant ainsi la modularité et l'efficacité du code dans un environnement collaboratif."
   },
   {
     "id": 1,
     "title": "Développeur frontend",
     "etablissement": "Technologies 2w",
     "annee": "2023",
-    "description": "Le titre RNCP DWWM m'a permis de rentrer dans le vif du sujet. Cette formation m'a familiarisé avec le développement pour le web et les appareils mobiles, me permettant d'explorer des langages tels que HTML, CSS, JavaScript, et des frameworks comme React."
+    "description": "J'ai conçu et développé un logiciel de modélisation et visualisation de chantiers, permettant de gérer différents niveaux d'utilisateurs (chef de chantier, sous-traitants, etc.) avec des permissions spécifiques. J'ai implémenté des fonctionnalités interactives pour visualiser en détail l'avancement du chantier et géré l'accès aux pages en fonction des rôles définis, garantissant ainsi une sécurité et une personnalisation adaptées. Ce projet permet une gestion fluide et intuitive des chantiers, tout en offrant une expérience utilisateur optimisée et sécurisée pour chaque type d'utilisateur."
   },
   {
       "id": 2,
       "title": "Développeur frontend",
       "etablissement": "Linkinnov",
       "annee": "2021 - 2022",
-      "description": "Le titre RNCP DWWM m'a permis de rentrer dans le vif du sujet. Cette formation m'a familiarisé avec le développement pour le web et les appareils mobiles, me permettant d'explorer des langages tels que HTML, CSS, JavaScript, et des frameworks comme React."
-  },
-  {
-      "id": 3,
-      "title": "Développeur fullstack",
-      "etablissement": "Konexio",
-      "annee": "2020 - 2021",
-      "description": "."
+      "description": "Lors de ma première expérience, j'ai eu l'occasion de créer des pages de groupes personnalisées et d'implémenter une fonctionnalité d'auto-complétion avancée grâce à l'intégration de l'API du gouvernement. En travaillant en étroite collaboration avec plusieurs équipes, j'ai appliqué les méthodes agiles et utilisé des outils de gestion de projets pour assurer une coordination fluide. Cette expérience m'a permis de développer non seulement des compétences techniques, mais aussi des capacités de collaboration, essentielles pour réussir dans des environnements dynamiques et évolutifs."
   }
 ]
